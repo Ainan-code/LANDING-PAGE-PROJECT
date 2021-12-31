@@ -109,3 +109,43 @@ header p {
     max-width: 100%;
     height: auto;
 }
+ h2 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #1F2937;
+     font-size: 36px;
+     font: bolder;
+     margin-bottom: 20px;
+     margin-top: 20px;
+ }
+ .container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     gap: 18px;
+ }
+ .column {
+     flex: 25%;
+     padding: 8px;
+     max-width: ;
+}
+#section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+blockquote {
+    margin: 0;
+}
+blockquote p {
+   font-size: 36px;
+   font-style: italic;
+   font-weight: 300;
+   color: #1F2937;
+
+}
